@@ -100,5 +100,54 @@ body {
   width: 430px;
   height: 245px;
   background-color: #445161;
+    color: #fff;
+}
+
+/*-----dignity-product-------------------------*/
+.dignity-product {
+  background-color: #f5f5f5;
+}
+.dignity-product:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.dignity-product-title {
+  display: block;
+  text-align: center;
+  height: 28px;
+  color: #445161;
+  font-size: 30px;
+  line-height: 36px;
+}
+.ditails-product-list-left {
+  float: left;
+  margin: 0 0 0 0;
+}
+.ditails-product-list-right {
+  float: right;
+  margin: 0 0 0 0;
+}
+.ditails-product-item {
+  list-style-type: none;
+  position: relative;
+  width: 526px;
+  margin: 36px 0 0 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+.ditails-product-item:before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: #445161;
+  position: absolute;
+  top: 5px;
+  left: -40px;
+  background-image: url(img/icons/plus.png);
+  background-size: contain;
 }
 /*---------Footer -----------------------------*/
