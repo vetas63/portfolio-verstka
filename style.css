@@ -162,8 +162,7 @@ body {
 }
 .screenshots-product-title {
   display: block;
-  width: 165px;
-  height: 22px;
+    text-align: center;
   color: #445161;
   font-size: 30px;
   line-height: 36px;
@@ -176,7 +175,9 @@ body {
   float: right;
   background-color: aquamarine;
 }
-
+.screenshots-product-figure {
+    margin: 0 0 0 0;
+}
 .screenshots-product-img-title {
   color: #445161;
   font-size: 24px;
@@ -187,7 +188,6 @@ body {
   width: 200px;
   min-height: 150px;
   background-color: #445161;
-  float: left;
 }
 .screenshots-product-discription {
   color: #333;
