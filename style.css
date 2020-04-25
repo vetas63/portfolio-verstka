@@ -84,7 +84,8 @@ body {
 }
 .about-product-vieo {
   float: right;
-
+  width: 430px;
+  height: 245px;
   background-color: #445161;
 }
 /*---------Footer -----------------------------*/
