@@ -70,7 +70,6 @@ body {
 }
 .about-product {
   width: 100%;
-  background-color: #ccc;
 }
 .about-product:after {
   content: "";
@@ -80,7 +79,21 @@ body {
 }
 .about-product-wrp {
   float: left;
-  background-color: orange;
+}
+.about-product-title{
+  width: 254px;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.about-product-discript {
+  width: 653px;
+  height: 60px;
+  padding: 20px 0 0 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
 }
 .about-product-vieo {
   float: right;
