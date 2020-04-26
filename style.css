@@ -3,6 +3,10 @@ body {
   width: 1280px;
   margin: 0 auto;
   font-family: arial;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .padding-site {
   padding: 50px;
@@ -59,15 +63,11 @@ body {
   float: right;
   display: block;
   background-color: #fff;
-  color: #333;
 }
 /*-------------------About Product----------------------*/
-.content {
-  color: #333;
-  font-size: 16px;
-  font-weight: 400;
+/*.content {
   line-height: 24px;
-}
+}*/
 .about-product {
   width: 100%;
 }
@@ -84,23 +84,19 @@ body {
   width: 254px;
   color: #445161;
   font-size: 30px;
-  font-weight: 400;
   line-height: 36px;
 }
 .about-product-discript {
   width: 653px;
   height: 60px;
   padding: 20px 0 0 0;
-  color: #333;
-  font-size: 16px;
-  line-height: 24px;
 }
 .about-product-vieo {
   float: right;
   width: 430px;
   height: 245px;
   background-color: #445161;
-    color: #fff;
+  color: #fff;
 }
 
 /*-----dignity-product-------------------------*/
@@ -134,9 +130,6 @@ body {
   position: relative;
   width: 526px;
   margin: 36px 0 0 0;
-  color: #333;
-  font-size: 16px;
-  line-height: 24px;
 }
 .ditails-product-item:before {
   content: "";
@@ -150,9 +143,9 @@ body {
   background-image: url(img/icons/plus.png);
   background-size: contain;
 }
-/*-- screenshots-product --*/
+/*-- screenshots-product ----------------------------*/
 .screenshots-product {
-    background-color: #ccc;
+    background-color: #ffffff;
 }
 .screenshots-product:after {
   content: "";
@@ -162,36 +155,36 @@ body {
 }
 .screenshots-product-title {
   display: block;
-    text-align: center;
+  text-align: center;
   color: #445161;
   font-size: 30px;
   line-height: 36px;
 }
 .screenshots-product-left{
   float: left;
-  background-color: orange;
+  margin: 0 0 0 0;
 }
 .screenshots-product-right {
   float: right;
-  background-color: aquamarine;
+  margin: 0 0 0 0;
 }
 .screenshots-product-figure {
-    margin: 0 0 0 0;
+  margin: 22px 0 0 0;
 }
 .screenshots-product-img-title {
   color: #445161;
   font-size: 24px;
-  line-height: 30px;
+  margin: 0 0 10px 214px;
 }
 .screenshots-product-img{
   display: block;
   width: 200px;
   min-height: 150px;
   background-color: #445161;
+  float: left;
 }
 .screenshots-product-discription {
-  color: #333;
-  font-size: 16px;
-  line-height: 24px;
+  width: 364px;
+  margin: 0 0 0 214px;
 }
 /*---------Footer -----------------------------*/
