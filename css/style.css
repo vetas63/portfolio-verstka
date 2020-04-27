@@ -1,4 +1,4 @@
-/*-------------Общие настройки сайта--------------------*/
+/*Общие настройки сайта*/
 body {
   width: 1280px;
   margin: 0 auto;
@@ -12,7 +12,7 @@ body {
   padding: 50px;
   box-sizing: border-box;
 }
-/*-------------Шапка сайта--------------------*/
+/*Шапка сайта*/
 .main-header {
   width: 100%;
   background-color: #445161;
@@ -32,6 +32,7 @@ body {
   margin: 0 0 35px 0;
   text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
   font-size: 60px;
+  font-weight: 400;
   line-height: 44px;
 }
 .main-header-list {
@@ -53,9 +54,8 @@ body {
   position: absolute;
   top: 5px;
   left: -40px;
-  background-image: url(img/icons/check.png);
+  background-image: url(../img/icons/check.png);
   background-size: cover;
-
 }
 .main-heder-img {
   width: 469px;
@@ -64,10 +64,7 @@ body {
   display: block;
   background-color: #fff;
 }
-/*-------------------About Product----------------------*/
-/*.content {
-  line-height: 24px;
-}*/
+/*About Product*/
 .about-product {
   width: 100%;
 }
@@ -81,9 +78,10 @@ body {
   float: left;
 }
 .about-product-title{
-  width: 254px;
+  text-align: left;
   color: #445161;
   font-size: 30px;
+  font-weight: 400;
   line-height: 36px;
 }
 .about-product-discript {
@@ -99,8 +97,7 @@ body {
   background-color: #445161;
   color: #fff;
 }
-
-/*-----dignity-product-------------------------*/
+/*dignity-product*/
 .dignity-product {
   background-color: #f5f5f5;
 }
@@ -116,6 +113,7 @@ body {
   height: 28px;
   color: #445161;
   font-size: 30px;
+  font-weight: 400;
   line-height: 36px;
 }
 .ditails-product-list-left {
@@ -144,7 +142,7 @@ body {
   background-image: url(img/icons/plus.png);
   background-size: contain;
 }
-/*-- screenshots-product ----------------------------*/
+/*screenshots-product*/
 .screenshots-product {
   width: 100%;
   background-color: #fff;
@@ -161,6 +159,7 @@ body {
   text-align: center;
   color: #445161;
   font-size: 30px;
+  font-weight: 400;
   line-height: 36px;
   margin: 0 0 21px 0;
 }
@@ -201,4 +200,4 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-/*---------Footer -----------------------------*/
+/*Footer*/
