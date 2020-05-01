@@ -98,6 +98,13 @@ body {
   background-color: #445161;
   color: #fff;
 }
+.about-product-vieo:focus,
+.product-vieo:focus,
+.product-vieo:hover {
+    background-color: rgba(194, 194, 194, 1);
+    outline: none;
+}
+
 /*dignity-product*/
 .dignity-product {
   background-color: #f5f5f5;
@@ -141,7 +148,7 @@ body {
   position: absolute;
   top: 5px;
   left: -40px;
-  background-image: url(img/icons/plus.png);
+  background-image: url(../img/icons/plus.png);
   background-size: contain;
 }
 /*screenshots-product*/
@@ -259,7 +266,9 @@ body {
   top: 30px;
   transform: rotate(45deg);
 }
-.user-reviews-discr-link {
+.user-reviews-discr-link,
+.user-reviews-discr-link:active,
+.user-reviews-discr-link:focus {
   margin: 7px 0 0 0;
   display: block;
   text-decoration: none;
@@ -268,6 +277,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
+  outline: none;
 }
 /* Buy it now rates */
 .buy {
@@ -401,20 +411,7 @@ body {
   border-radius: 5px;
   margin: 0 auto;
 }
-/* Hover */
-.buy-rates-btn:hover,
-.buy-rates-btn-link:hover,
-.contacts-form-send:hover,
-.contacts-name:hover,
-.contacts-mail:hover,
-.contacts-message:hover,
-.social-network-link:hover {
-  background-color: #ccc;
-  color: #fff;
-}
-.address-list-item-link:hover {
-  color: #ccc;
-}
+
 .address {
   width: 193px;
 }
@@ -435,8 +432,7 @@ body {
   display: block;
   content: "";
   width: 22px;
-  /*height: 22px;*/
-  /*border: 1px solid #fff;*/
+  height: 22px;
   position: absolute;
   top: -2px;
   left: -30px;
@@ -447,6 +443,7 @@ body {
   display: block;
   content: "";
   width: 22px;
+  height: 22px;
   position: absolute;
   top: -2px;
   left: -30px;
@@ -457,6 +454,7 @@ body {
   display: block;
   content: "";
   width: 22px;
+  height: 22px;
   position: absolute;
   top: -2px;
   left: -30px;
@@ -467,15 +465,21 @@ body {
   display: block;
   content: "";
   width: 22px;
+  height: 22px;
   position: absolute;
   top: -2px;
   left: -30px;
   background-image: url(../img/socseti/phone.png);
   background-size: cover;
+
 }
 .address-list-item-link {
   text-decoration: none;
   color: #fff;
+}
+.address-list-item-link:focus {
+  border-bottom: 1px solid #fff;
+  outline: none;
 }
 .social-network {
   width: 240px;
@@ -484,14 +488,41 @@ body {
 }
 .social-network-link {
   display: block;
-  width: 45px;
-  height: 45px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   margin: 0 6px 20px 0;
   text-decoration: none;
+  position: relative;
+}
+.tw {
+  background-image: url(../img/socseti/tw.png);
+  background-size: cover;
+}
+.fb {
+  background-image: url(../img/socseti/fb.png);
+  background-size: cover;
+}
+.inst {
+  background-image: url(../img/socseti/inst.png);
+  background-size: cover;
+}
+.google {
+  background-image: url(../img/socseti/google.png);
+  background-size: cover;
+}
+.youtube {
+  background-image: url(../img/socseti/youtube.png);
+  background-size: cover;
 }
 .social-network-link:nth-child(5) {
   margin-right: 0;
+}
+.social-network-link:focus,
+.social-network-img:focus {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  outline: none;
 }
 .copyright {
   width: 100%;
@@ -503,14 +534,38 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-/* Outline */
-.buy-rates-btn:active,
+
+/* Hover */
 .buy-rates-btn:hover,
-.buy-rates-btn,
-.contacts-form-send:active
-buy-rates-btn,
-input:active,
-:-moz-focus-inner{
+.buy-rates-btn:focus,
+.contacts-name:hover,
+.contacts-name:focus,
+.contacts-mail:hover,
+.contacts-mail:focus,
+.contacts-message:hover,
+.contacts-message:focus,
+.contacts-form-send:hover,
+.contacts-form-send:focus,
+.social-network-link:hover {
+  background-color: #ccc;
+  color: #fff;
   outline: none;
-  outline-offset: 0;
+}
+.contacts-form-send::-moz-focus-inner,
+.buy-rates-btn::-moz-focus-inner {border: 0px !important;}
+
+/*Active*/
+.about-product-vieo:active,
+.buy-rates-btn:active,
+.contacts-name:active,
+.contacts-mail:active,
+.contacts-message:active,
+.contacts-form-send:active,
+.address-list-item:active,
+.social-network-link:active {
+  background-color: #fff;
+  color: #ccc;
+  -webkit-outline: none;
+  -moz-outline: none;
+  outline: none;
 }
