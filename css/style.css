@@ -83,6 +83,7 @@ body {
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
+  margin: 0;
 }
 .about-product-discript {
   width: 653px;
@@ -115,6 +116,7 @@ body {
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
+  margin: 0;
 }
 .ditails-product-list-left {
   float: left;
@@ -333,16 +335,13 @@ body {
   background-color: white;
   border-radius: 5px;
   margin: 0 20px 20px 20px;
-}
-.buy-rates-btn-link {
-  display: block;
-  width: 100%;
-  text-decoration: none;
   color: #445161;
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
+  text-transform: uppercase;
 }
+
 /*Footer*/
 .footer-wrp {
   width: 100%;
@@ -357,7 +356,6 @@ body {
   display: block;
   width: 100%;
   text-align: center;
-  height: 22px;
   font-family: Arial;
   font-size: 30px;
   font-weight: 400;
@@ -437,7 +435,7 @@ body {
   display: block;
   content: "";
   width: 22px;
-  height: 22px;
+  /*height: 22px;*/
   /*border: 1px solid #fff;*/
   position: absolute;
   top: -2px;
@@ -449,8 +447,6 @@ body {
   display: block;
   content: "";
   width: 22px;
-  height: 22px;
-  /*border: 1px solid #fff;*/
   position: absolute;
   top: -2px;
   left: -30px;
@@ -461,8 +457,6 @@ body {
   display: block;
   content: "";
   width: 22px;
-  height: 22px;
-  /*border: 1px solid #fff;*/
   position: absolute;
   top: -2px;
   left: -30px;
@@ -473,17 +467,12 @@ body {
   display: block;
   content: "";
   width: 22px;
-  height: 22px;
-  /*border: 1px solid #fff;*/
   position: absolute;
   top: -2px;
   left: -30px;
   background-image: url(../img/socseti/phone.png);
   background-size: cover;
 }
-
-
-
 .address-list-item-link {
   text-decoration: none;
   color: #fff;
@@ -504,7 +493,6 @@ body {
 .social-network-link:nth-child(5) {
   margin-right: 0;
 }
-
 .copyright {
   width: 100%;
   margin: 0;
@@ -514,4 +502,15 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
+}
+/* Outline */
+.buy-rates-btn:active,
+.buy-rates-btn:hover,
+.buy-rates-btn,
+.contacts-form-send:active
+buy-rates-btn,
+input:active,
+:-moz-focus-inner{
+  outline: none;
+  outline-offset: 0;
 }
