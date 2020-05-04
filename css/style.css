@@ -1,3 +1,15 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family:"Socialico";
+  src:
+    url("../fonts/Socialico/Socialico.eot?") format("eot"),
+    url("../fonts/Socialico/Socialico.woff") format("woff"),
+    url("../fonts/Socialico/Socialico.ttf") format("truetype"),
+    url("../fonts/Socialico/Socialico.svg#Socialico") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
 /*Общие настройки сайта*/
 body {
   width: 1280px;
@@ -7,6 +19,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  background: url(../img/bg3-4.jpg);
 }
 .padding-site {
   padding: 50px;
@@ -487,42 +500,30 @@ body {
   justify-content: center;
 }
 .social-network-link {
-  display: block;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  margin: 0 6px 20px 0;
+  display: inline-block;
   text-decoration: none;
-  position: relative;
+  font-family:"Socialico";
+  font-size: 60px;
+  color: #fff;
+  margin: 0 6px 0 0;
 }
-.tw {
-  background-image: url(../img/socseti/tw.png);
-  background-size: cover;
-}
-.fb {
-  background-image: url(../img/socseti/fb.png);
-  background-size: cover;
-}
-.inst {
-  background-image: url(../img/socseti/inst.png);
-  background-size: cover;
-}
-.google {
-  background-image: url(../img/socseti/google.png);
-  background-size: cover;
-}
-.youtube {
-  background-image: url(../img/socseti/youtube.png);
-  background-size: cover;
-}
+
 .social-network-link:nth-child(5) {
   margin-right: 0;
 }
-.social-network-link:focus,
+
 .social-network-img:focus {
   border: 1px solid #fff;
   border-radius: 50%;
   outline: none;
+}
+.social-network-link:focus,
+.social-network-link:hover {
+  outline: none;
+  color: #ccc;
+}
+.social-network-link:active {
+  color: #f00;
 }
 .copyright {
   width: 100%;
@@ -545,8 +546,7 @@ body {
 .contacts-message:hover,
 .contacts-message:focus,
 .contacts-form-send:hover,
-.contacts-form-send:focus,
-.social-network-link:hover {
+.contacts-form-send:focus {
   background-color: #ccc;
   color: #fff;
   outline: none;
@@ -561,8 +561,7 @@ body {
 .contacts-mail:active,
 .contacts-message:active,
 .contacts-form-send:active,
-.address-list-item:active,
-.social-network-link:active {
+.address-list-item:active {
   background-color: #fff;
   color: #ccc;
   -webkit-outline: none;
